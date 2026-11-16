@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Meus trabalhos · Viviane Silva</title>
+<style>
+:root{--bg:#faf6f1;--card:#fff;--ink:#1f2a24;--muted:#6b6b66;--accent:#2f4a3a}
+@media (prefers-color-scheme:dark){:root{--bg:#15110f;--card:#1f1a17;--ink:#f3ece4;--muted:#b3aaa0;--accent:#d7b98a}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,sans-serif}
+section{max-width:1100px;margin:0 auto;padding:40px 16px}
+h2{font-size:1.8rem;margin:0 0 6px}
+.sub{color:var(--muted);margin:0 0 24px}
+.grid{display:grid;gap:20px;grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}
+.card{background:var(--card);border-radius:16px;overflow:hidden;box-shadow:0 2px 10px rgba(0,0,0,.08);display:flex;flex-direction:column}
+.card img{width:100%;aspect-ratio:3/4;object-fit:cover;object-position:top;display:block}
+.card div{padding:14px 16px 18px}
+.card h3{margin:0 0 4px;font-size:1.05rem}
+.card p{margin:0 0 12px;color:var(--muted);font-size:.9rem}
+.card a{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;padding:8px 14px;border-radius:999px;font-size:.9rem}
+@media (prefers-color-scheme:dark){.card a{color:#15110f}}
+</style>
+</head>
+<body>
+<section id="trabalhos">
+<h2>Meus trabalhos</h2>
+<p class="sub">Sites e peças que criei.</p>
+<div class="grid">
+ <article class="card"><img src="trabalho-mare-site.jpg" alt="Site Maré" loading="lazy"><div><h3>Maré · Apartamento de temporada</h3><p>Site de reservas.</p><a href="https://reservasmare.com.br">Ver site</a></div></article>
+ <article class="card"><img src="trabalho-guia.jpg" alt="Guia do Hóspede Maré" loading="lazy"><div><h3>Guia do Hóspede Maré</h3><p>Guia para quem se hospeda.</p><a href="https://reservasmare.com.br/guia/">Ver site</a></div></article>
+ <article class="card"><img src="trabalho-universo.jpg" alt="Universo Viviane Silva" loading="lazy"><div><h3>Universo Viviane Silva</h3><p>Rede de apoio.</p><a href="https://vivianesilvanegocios.com.br">Ver site</a></div></article>
+ <article class="card"><img src="trabalho-portal.jpg" alt="Auto Moto Escola Portal" loading="lazy"><div><h3>Auto Moto Escola Portal</h3><p>Categoria D em Araçariguama.</p><a href="https://categoriad.guiandonadirecaocerta.com.br/">Ver site</a></div></article>
+ <article class="card"><img src="trabalho-thais-nova.jpg" alt="Thaís Furtner, versão no domínio" loading="lazy"><div><h3>Thaís Furtner · Viagens de luxo</h3><p>Versão no domínio.</p><a href="https://previa-thais.vivianesilva.online/">Ver prévia</a></div></article>
+ <article class="card"><img src="trabalho-thais.jpg" alt="Thaís Furtner, versão Netlify" loading="lazy"><div><h3>Thaís Furtner · Primeira versão</h3><p>Versão na Netlify.</p><a href="https://previa-tf-viagens.netlify.app">Ver prévia</a></div></article>
+ <article class="card"><img src="trabalho-julia.jpg" alt="Júlia Silva Coanfitriã" loading="lazy"><div><h3>Júlia Silva · Coanfitriã</h3><p>Peça de divulgação.</p></div></article>
+</div>
+</section>
+</body>
+</html>
